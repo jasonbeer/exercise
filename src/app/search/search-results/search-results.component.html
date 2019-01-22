@@ -1,5 +1,24 @@
 <div class="result">
-  <ul class="" *ngFor="let _value of results;">
-    <li class="">{{_value.name}}</li>
-  </ul>
+    <div *ngFor="let _value of results;">
+        <div class="col-8 offset-2 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-inline-block">
+                    <div class="d-flex align-items-center ml-lg-2">
+                      <p class="card-title mb-0">{{_value.name}}</p>
+                    </div>
+                      <p class="text-bold">{{_value.capital}},<span class="text-gray text-normal margin-left-10px">{{_value.region}}</span></p>
+                  </div>
+                  <div class="d-inline-block">
+                      <div class="d-flex align-items-center ml-lg-2">
+                        <p class="ml-1 mb-0 text-gray text-small text-ag-center">Population</p>
+                      </div>
+                      <p>{{_value.population}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
 </div>
