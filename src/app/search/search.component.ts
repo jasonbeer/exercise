@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
   }
 
   searchCountries(_country: string = ''){
-    this.countries = this.original_countries.filter((country: any) => country.name.toLowerCase().match(_country));
+    this.countries = this.original_countries.filter((country: any) => country.name.toLowerCase().match(_country.toLowerCase()));
   }
 }
 
