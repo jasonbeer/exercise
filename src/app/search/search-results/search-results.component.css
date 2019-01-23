@@ -62,7 +62,7 @@
   box-shadow: 2px 2px 10px #eaeaea;
   border-radius: 10px; }
   .card .card-body {
-    padding: 1.88rem 1.81rem; }
+    /*padding: 1.88rem 1.81rem;*/ }
     .card .card-body + .card-body {
       padding-top: 0; }
   .card.card-outline-success {
@@ -106,7 +106,7 @@
 
     .card-body {
   flex: 1 1 auto;
-  padding: 1.25rem; }
+  padding: 1rem 1rem; }
 
 
 
